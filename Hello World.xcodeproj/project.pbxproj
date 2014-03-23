@@ -21,6 +21,7 @@
 		270A43BB18DA09D600EDD950 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270A439D18DA09D600EDD950 /* UIKit.framework */; };
 		270A43C318DA09D600EDD950 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 270A43C118DA09D600EDD950 /* InfoPlist.strings */; };
 		270A43C518DA09D600EDD950 /* Hello_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 270A43C418DA09D600EDD950 /* Hello_WorldTests.m */; };
+		270A43D018DA0D0000EDD950 /* PageTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 270A43CF18DA0D0000EDD950 /* PageTwoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		270A43C018DA09D600EDD950 /* Hello WorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hello WorldTests-Info.plist"; sourceTree = "<group>"; };
 		270A43C218DA09D600EDD950 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		270A43C418DA09D600EDD950 /* Hello_WorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello_WorldTests.m; sourceTree = "<group>"; };
+		270A43CE18DA0D0000EDD950 /* PageTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PageTwoViewController.h; path = ../PageTwoViewController.h; sourceTree = "<group>"; };
+		270A43CF18DA0D0000EDD950 /* PageTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PageTwoViewController.m; path = ../PageTwoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				270A43AB18DA09D600EDD950 /* Main.storyboard */,
 				270A43AE18DA09D600EDD950 /* ViewController.h */,
 				270A43AF18DA09D600EDD950 /* ViewController.m */,
+				270A43CE18DA0D0000EDD950 /* PageTwoViewController.h */,
+				270A43CF18DA0D0000EDD950 /* PageTwoViewController.m */,
 				270A43B118DA09D600EDD950 /* Images.xcassets */,
 				270A43A018DA09D600EDD950 /* Supporting Files */,
 			);
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270A43D018DA0D0000EDD950 /* PageTwoViewController.m in Sources */,
 				270A43B018DA09D600EDD950 /* ViewController.m in Sources */,
 				270A43AA18DA09D600EDD950 /* AppDelegate.m in Sources */,
 				270A43A618DA09D600EDD950 /* main.m in Sources */,
